@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header, .footer {
+  border: 1px solid #13ab3c;
+}
+
+.header__title {
+  font-size: 20px;
+}
