@@ -1,9 +1,9 @@
 import TreeNode from './TreeNode';
 
-const Tree = ({treeData}) => {
+const Tree = ({treeData, onMouseEnter, onMouseLeave, onClick}) => {
   return (
     <ul className='tree'>
-      {treeData.map(node => <TreeNode node={node} key={node.id} />)}
+      {treeData.map(node => <TreeNode onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} node={node} key={node.id} onClick={onClick} />)}
     </ul>
   )
 };

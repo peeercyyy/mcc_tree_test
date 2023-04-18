@@ -12,3 +12,8 @@
 .header__title {
   font-size: 20px;
 }
+
+.main {
+  border: 1px solid #13ab3c;
+
+}
