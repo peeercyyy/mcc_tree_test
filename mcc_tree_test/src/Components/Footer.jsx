@@ -1,14 +1,26 @@
-import Button from './Button'
+import Button from './Button';
 
-const Footer = ({handleAdd, handleRemove, handleEdit, handleReset}) => {
-  return(
+const Footer = ({ handleAdd, handleRemove, handleEdit, handleReset }) => {
+  return (
     <footer className='footer'>
-      <Button onClick={handleAdd} title={'Add'} />
-      <Button onClick={handleRemove} title={'Remove'} />
-      <Button onClick={handleEdit} title={'Edit'} />
-      <Button onClick={handleReset} title={'Reset'} />
+      <Button
+        onClick={handleAdd}
+        title={'Add'}
+      />
+      <Button
+        onClick={handleRemove}
+        title={'Remove'}
+      />
+      <Button
+        onClick={handleEdit}
+        title={'Edit'}
+      />
+      <Button
+        onClick={handleReset}
+        title={'Reset'}
+      />
     </footer>
-  )
-}
+  );
+};
 
 export default Footer;
